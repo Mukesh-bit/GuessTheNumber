@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Lato:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --dark: #350363;
+    --background: #ffe9db;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: #491579;
+}
+
+main{
+    width: 30vw;
+    text-align: center;
+    background: var(--background);
+    border: solid var(--dark);
+    border-radius: 1rem;
+    color: #1f2933;
+    margin-top: 2rem;
+}
+
+h2{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+h3{
+    font-size: 2rem;
+    padding: 0 0.3rem;
+}
+
+.Sdifficulty{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+p{
+    font-size: 1rem;
+    
+}
+
+#welcomeScreen{
+    margin-top: 3rem;
+}
+
+#welcomeScreen .image{
+    width: 90%;
+    margin: 1rem 0;
+}
+
+#welcomeScreen .eventSection .button-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+ button{
+    background-image: linear-gradient(92.88deg, #455eb5 9.16%, #5643cc 45.89%, #673fd7 64.72%);
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+    cursor: pointer;
+ }
+
+ /* Our Game area */
+
+ #gamearea{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+ }
+
+ input{
+    border: 0.1rem solid lightgray;
+    background: transparent;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    width: 15rem;
+    text-align: center;
+ }
+
+ .stats{
+    text-align: left;
+ }
+
+ .info{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    
+ }
+ .info span{
+    color: #ff0511;
+    font-size: 2rem;
+ }
+ #attempts{
+    margin-bottom: 2rem;
+ }
+
+
+
+
+ @media (width <= 365px){
+    main{
+        width: 80vw;
+    }
+ }
+
+ @media (width <= 828px){
+    main{
+        width: 40vw;
+    }
+ }
+
+ @media (width <= 650px){
+    main{
+        width: 50vw;
+    }
+ }
+
+ @media (width <= 550px){
+    main{
+        width: 60vw;
+    }
+ }
+
+ @media (width <= 430px){
+    main{
+        width: 70vw;
+    }
+ }
+
+ @media (width <= 375px){
+    main{
+        width: 80vw;
+    }
+ }
+
+ @media (width <= 820px){
+    main{
+        width: 60vw;
+    }
+ }
+
+ @media (width <= 912px){
+    main{
+        width: 60vw;
+    }
+ }
+
+ @media (width <= 280px){
+    main{
+        width: 90vw;
+    }
+    input{
+        width: 13rem;
+    }
+ }
+
+ @media (width <= 412px){
+    main{
+        width: 80vw;
+    }
+ }
