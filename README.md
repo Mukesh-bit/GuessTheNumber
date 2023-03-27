@@ -1,1 +1,1 @@
-# GuessTheNumber.github.io
+# GuessTheNumber
